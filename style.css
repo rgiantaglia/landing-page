@@ -72,9 +72,10 @@ button {
     color: #F9FAF8;
     background-color: #3882F6;
     display: flex;
-    align-items: center;
     justify-content: center;
-    padding: 8px 24px 8px 24px;
+    align-items: center;
+    height: 30px;
+    padding: 8px 24px;
     border-radius: 8px;
 }
 
@@ -86,9 +87,8 @@ button {
     justify-content: center;
     color: #E5e7EB;
     background-color: gray;
-    width:450px;
-    height: auto;
-
+    width:520px;
+    height: 260px;
 }
 
 /* This is the content */
@@ -96,6 +96,10 @@ button {
 .content {
     display: flex;
     flex-direction: column;
+}
+
+.content-top {
+    margin: 20px;
 }
 
 .content-bottom {
@@ -164,7 +168,37 @@ button {
     font-weight: 900;
 }
 
+/* action part */
 
+.action {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    margin: 100px 200px;
+    padding: 50px 100px;
+    border-radius: 10px;
+}
+
+.call {
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.button {
+    border: solid 1px #E5e7EB;
+    
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #F9FAF8;
+    padding: 20px 0;
+}
 
 * {
     border: solid 1px red;
